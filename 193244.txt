@@ -1,0 +1,16 @@
+git init 
+git remote add origin https://github.com/nikolaangelovski/SI_2022_lab1_193244
+nano shopping_list.txt
+git add shopping list.txt
+git commit -m"Add 5 items to the shopping list"
+git init 
+git remote add origin https://github.com/nikolaangelovski/SI_2022_lab1_193244
+nano shopping_list.txt
+git add shopping list.txt
+git commit -m"Add quantities to the items"
+git branch branch1
+git branch branch2
+git push --set-upstream origin master
+git push --set-upstream origin branch1
+git push --set-upstream origin branch2
+git push
